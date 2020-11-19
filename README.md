@@ -51,5 +51,5 @@ fastai==1.0.61
    * Run the `ResNet50`, `SeResNext50`, `DenseNet121` and `MobileNet_V2` notebooks from the `src` directory.
    * Run the `Final Blending` notebook on the generated outputs from the three notebooks.
    
-Also predicted probabilities of all the models are provided in `Probabilities` folder which can be directly used.
+Also predicted probabilities of all the models are provided in `output/probabilities` directory which can directly be used.
 
