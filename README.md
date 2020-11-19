@@ -1,6 +1,6 @@
 # Rethink UX Internship Challenge 3rd place solution
  
-This repository contains **3rd place** solution to [Rethink UX Internship Challenge](https://dockship.io/challenges/5f7f058c81d83b7c2b93680b/rethink-ux-internship-challenge/overview) organised by [Rethink UX](https://www.linkedin.com/company/rethinkux/) on [Dockship](https://www.dockship.io)
+This repository contains **3rd place** solution to [Rethink UX Internship Challenge](https://dockship.io/challenges/5f7f058c81d83b7c2b93680b/rethink-ux-internship-challenge/overview) organised by [Rethink UX](https://www.linkedin.com/company/rethinkux/) on [Dockship](https://dockship.io/)
 
 ## Problem Statement
 
