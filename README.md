@@ -23,7 +23,7 @@ The dataset contains images of 6 categories from around the world. It contains t
 
 -  Trained 4 models by fine-tuning pretrained ImageNet weights of ResNet50, SeResNext50, DenseNet121 and MobileNet_V2 architectures.
 
-- Each model is trained in 2 stages using progressive resizing : `128x128 -> 256*256` except for SeResNext50 which is trained in 3 stages: `128x128 -> 256*256 -> 299x299`.
+- Each model is trained in 2 stages using progressive resizing : `128x128 -> 256x256` except for SeResNext50 which is trained in 3 stages: `128x128 -> 256x256 -> 299x299`.
 
 - Various combinations of techniques were used like `Data Augmentations(flip left right, random zoom and crop, etc)`, `Mixup` with `Focal Loss` and `FlattenedLoss of CrossEntropyLoss`.
  
