@@ -21,13 +21,13 @@ The dataset contains images of 6 categories from around the world. It contains t
   
 ## Approach
 
--  Trained 4 models using pretrained ImageNet weights of ResNet50, SeResNext50, DenseNet121 and MobileNet_V2
+-  Trained 4 models by fine-tuning pretrained ImageNet weights of ResNet50, SeResNext50, DenseNet121 and MobileNet_V2
 
 - Each model is trained in 2 stages using progressive resizing : `128x128 -> 256*256` except for SeResNext50 which is trained in 3 stages: `128x128 -> 256*256 -> 299x299`
- 
-- Final Submission was generated using `Final Blending`  notebook.
 
-- Created a weighted average of all the models for final submission as it performed better on the Test Dataset
+- Various combinations of techniques were used like `Data Augmentations(flip left right, random zoom and crop, etc)`, `Mixup` with `Focal Loss` and `FlattenedLoss of CrossEntropyLoss`.
+ 
+- Final Submission was generated using `Final Blending`  notebook. Used weighted average of all the models for final submission as it performed better on the Test Dataset
 
 ## Scores 
 
