@@ -31,10 +31,10 @@ The dataset contains images of 6 categories from around the world. It contains t
 
 ## Scores 
 
-| MODEL  | TEST SCORE|
-|---|---|---|
+| **MODEL**  | **TEST SCORE** |
+|---|---|
 | ResNet50 | 94.925|
-| SeResNext50 | 95.043|
+| SeResNeXt50 | 95.043|
 | DenseNet121 | 94.720|
 | MobileNet_V2 | 94.573|
 | Weighted Average of all 4 models | 95.307| 
