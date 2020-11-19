@@ -31,7 +31,7 @@ The dataset contains images of 6 categories from around the world. It contains t
 
 ## Scores 
 
-| **MODEL**  | **TEST SCORE** |
+|**MODEL**  |**TEST SCORE** |
 |---|---|
 | ResNet50 | 94.925|
 | SeResNeXt50 | 95.043|
